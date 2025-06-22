@@ -27,37 +27,12 @@ The backend for the Airbnb Clone project is a robust and scalable application fo
 - **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
 
 ## Database Design
-- **Users** - A user can either be a guest or a host. All types of users have the following common fields:
-  -*user_id* 
-  -*user_name*
-  -*user_type*
-  -*email*
-  -*password*
+- **Users** - A user can either be a guest or a host. All types of users have the following common fields: *user_id*, *user_name*, *user_type*, *email*, *password*.
   
-- **Properties** - A property belongs to a host. Key property fields include the following:
-  -*property_id*
-  -*host_id*
-  -*property_type*
-  -*property_description*
-  -*property_status*
+- **Properties** - A property belongs to a host. Key property fields include the following: *property_id*, *host_id*, *property_type*, *property_description*, *property_status*.
   
-- **Bookings** - A booking belongs to a guest and is made for a property owned by a host. Key booking fields include the following:
-  -*booking_id*
-  -*property_id*
-  -*guest_id*
-  -*host_id*
-  -*booking_status*
+- **Bookings** - A booking belongs to a guest and is made for a property owned by a host. Key booking fields include the following: *booking_id*, *property_id*, *guest_id*, *host_id*, *booking_status*.
   
-- **Reviews** - A review is made by a guest(reviewer) for a particular property that belongs to a host(reviewee). Review entities have the following common fields:
-  -*review_id*
-  -*reviewer_id*
-  -*reviewee_ide*
-  -*rating*
-  -*property_id*
+- **Reviews** - A review is made by a guest(reviewer) for a particular property that belongs to a host(reviewee). Review entities have the following common fields: review_id*, *reviewer_id*, *reviewee_ide*, *rating*, *property_id*.
   
-- **Payments** - A payment is made by a guest(payer) for a booking they made. Payment entities have the following common fields:
-  -*payment_id*
-  -*payer_id*
-  -*booking_id*
-  -*payment_type*
-  -*amount*
+- **Payments** - A payment is made by a guest(payer) for a booking they made. Payment entities have the following common fields: *payment_id*, *payer_id*, *booking_id*, *payment_type*, *amount*.
