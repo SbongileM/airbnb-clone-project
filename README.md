@@ -16,7 +16,7 @@ The backend for the Airbnb Clone project is a robust and scalable application fo
 - **DevOps Engineer**: Facilitates deployment, monitoring, and scaling of backend services. Builds continuous integration and continuous delivery (CI/CD) pipelines for fast delivery.
 - **Database Administrator**: Manages database design, indexing, and optimizations.
 
-## Technology Stack Overview
+## Technology Stack
 - **Django**: A high-level Python web framework used for building the RESTful API.
 - **Django Rest framework**: Extends Django specifically for building RESTful APIs. It provides powerful tools for serialization, authentication, permissions, and API documentation. 
 - **PostgreSQL**: A powerful open-source relational database management system that supports both SQL and NoSQL data storage features.
