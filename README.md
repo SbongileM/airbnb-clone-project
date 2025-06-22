@@ -33,6 +33,22 @@ The backend for the Airbnb Clone project is a robust and scalable application fo
   
 - **Bookings** - A booking belongs to a guest and is made for a property owned by a host. Key booking fields include the following: *booking_id*, *property_id*, *guest_id*, *host_id*, *booking_status*.
   
-- **Reviews** - A review is made by a guest(reviewer) for a particular property that belongs to a host(reviewee). Review entities have the following common fields: *review_id*, *reviewer_id*, *reviewee_ide*, *rating*, *property_id*.
+- **Reviews** - A review is made by a guest(reviewer) for a particular property that belongs to a host(reviewee). Review entities have the following common fields: *review_id*, *reviewer_id*, *review*, *rating*, *property_id*.
   
 - **Payments** - A payment is made by a guest(payer) for a booking they made. Payment entities have the following common fields: *payment_id*, *payer_id*, *booking_id*, *payment_type*, *amount*.
+
+## Feature Breakdown
+- #### User Management
+Enables users to create accounts, log in securely, and manage their profiles with comprehensive verification systems. It establishes trust and safety within the platform by ensuring user identities are validated, reducing fraud, and increasing booking confidence.
+
+- #### Property Management
+Hosts can create detailed property listings with property type, description, pricing, and availability. This feature serves as the core inventory management system for all property listings.
+
+- #### Booking System
+Provides instant booking capabilities with real-time availability checking, pricing, and immediate confirmation for eligible properties. Guests can also update their bookings, including check-in and check-out details.
+
+- #### Payment Processing
+A comprehensive payment system that handles secure transactions and multiple payment methods, and automated host payouts. This feature ensures financial security for both parties by holding payments until successful check-in and providing dispute resolution mechanisms.
+
+- #### Review System
+Allows guests to review and rate properties with a star rating and written feedback. It also allows guests to manage their reviews and hosts to review their guests.
