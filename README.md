@@ -52,3 +52,29 @@ A comprehensive payment system that handles secure transactions and multiple pay
 
 - #### Review System
 Allows guests to review and rate properties with a star rating and written feedback. It also allows guests to manage their reviews and hosts to review their guests.
+
+## API Security
+Security is crucial for user data protection, payments, and overall system stability. Firstly, the platform will collect personal and sensitive user information, so a data breach could result in identity theft. Additionally, property and booking information reveal users' travel plans, home addresses, and absence periods, making security breaches potentially dangerous for personal safety. Therefore, protecting this data is essential for maintaining user trust and complying with privacy regulations. Secondly, payment security is fundamental to platform viability since users must trust the system with their financial information and significant transaction amounts. A comprehensive payment security ensures transaction integrity and prevents financial fraud. To ensure that the application is well-secured, here are some security measures that will be implemented:
+
+#### Authentication & Identity Management
+- OAuth 2.0 integration to allow social login with Google, Facebook, Apple for secure third-party authentication.
+- Password Security: minimum complexity requirements, and breach detection.
+- Session Management: Secure session handling with automatic logout, concurrent session limits, and suspicious activity detection
+
+#### Authorization & Access Control
+- Role-Based Access Control (RBAC): Distinct permissions for guests, hosts, admins etc.
+- Resource-Level Permissions: Fine-grained access control ensuring users can only access their bookings, properties, and data.
+- Data Segregation: Tenant isolation ensuring user data is properly compartmentalized.
+
+#### Rate Limiting
+- API Rate Limiting: Redis-based rate limiting with different tiers for authenticated vs. anonymous users
+- Progressive Rate Limiting: Increasing delays for repeated failed attempts (login, password reset, booking)
+- Endpoint-Specific Limits: Different rate limits for search, booking, payment, and messaging endpoints
+
+#### Data Encryption & Protection
+- Encryption at rest, encryption in transit and database encryption
+
+#### Payment Security
+- Tokenization: Credit card tokenization to avoid storing sensitive payment data
+- 3D Secure Authentication: Enhanced cardholder verification for online transactions
+- Secure Payment Processing: End-to-end encryption for payment flows with minimal data exposure
