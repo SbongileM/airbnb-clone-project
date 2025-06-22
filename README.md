@@ -15,3 +15,13 @@ The backend for the Airbnb Clone project is a robust and scalable application fo
 - **Test Automation Engineer**: Writes automated test scripts that help determine which parts of the application are suitable for automation.
 - **DevOps Engineer**: Facilitates deployment, monitoring, and scaling of backend services. Builds continuous integration and continuous delivery (CI/CD) pipelines for fast delivery.
 - **Database Administrator**: Manages database design, indexing, and optimizations.
+
+## Technology Stack Overview
+- **Django**: A high-level Python web framework used for building the RESTful API.
+- **Django Rest framework**: Extends Django specifically for building RESTful APIs. It provides powerful tools for serialization, authentication, permissions, and API documentation. 
+- **PostgreSQL**: A powerful open-source relational database management system that supports both SQL and NoSQL data storage features.
+- **GraphQL**: Single endpoint query language and runtime for APIs. It allows for flexible and efficient querying of data.
+- **Celery**: For handling asynchronous tasks such as sending notifications or processing payments.
+- **Redis**: Serves as a cache and message broker. Used for caching and session management.
+- **Docker**: Containerization tool for consistent development and deployment environments.
+- **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
