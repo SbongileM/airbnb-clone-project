@@ -78,3 +78,8 @@ Security is crucial for user data protection, payments, and overall system stabi
 - Tokenization: Credit card tokenization to avoid storing sensitive payment data
 - 3D Secure Authentication: Enhanced cardholder verification for online transactions
 - Secure Payment Processing: End-to-end encryption for payment flows with minimal data exposure
+
+## CI/CD Pipeline
+CI/CD pipelines are automated workflows that move code from development through testing, security scanning, and deployment stages. They automatically integrate code changes from multiple developers into a shared repository multiple times per day, triggering automated builds and tests. They also automatically deploy validated code changes to staging and production environments. 
+
+CI/CD pipelines are crucial for this project because they enable frequent updates, bug fixes, security patches, and multiple daily deployments without manual intervention. They also make collaboration easy and seamless without integration conflicts. Tools that can be used include *GitHub Actions*, *GitLab CI/CD*,*Docker*,*Kubernetes*, and cloud platforms such as *AWS*.
