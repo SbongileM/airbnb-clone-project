@@ -8,3 +8,10 @@ The backend for the Airbnb Clone project is a robust and scalable application fo
 - Integrate a payment system to handle transactions and record payment details.
 - Allow users to leave reviews and ratings for properties.
 - Ensure efficient data retrieval and storage through database optimizations.
+
+## Team Roles
+- **Backend software Developer**: Responsible for implementing software API endpoints, devising app architecture and database schemas, and implementing business logic.
+- **Quality Assurance Engineer**: Ensures the application performs according to requirements, with no defects. Thoroughly tests all backend functionalities and ensures they meet quality standards.
+- **Test Automation Engineer**: Writes automated test scripts that help determine which parts of the application are suitable for automation.
+- **DevOps Engineer**: Facilitates deployment, monitoring, and scaling of backend services. Builds continuous integration and continuous delivery (CI/CD) pipelines for fast delivery.
+- **Database Administrator**: Manages database design, indexing, and optimizations.
